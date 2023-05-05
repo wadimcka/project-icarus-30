@@ -1,11 +1,11 @@
 {
-  "name": "the-watch-spot",
+  "name": "project-icarus-30",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/the-watch-spot/",
+    "build": "vite build --base=/project-icarus-30/",
     "preview": "vite preview"
   },
   "devDependencies": {
