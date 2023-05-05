@@ -1,4 +1,14 @@
 /* Reset styles */
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
 h1,
 h2,
 h3,
@@ -6,30 +16,45 @@ h4,
 h5,
 h6,
 p {
-  margin: 0;
-}
-
-p:last-child {
+  margin-top: 0;
   margin-bottom: 0;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-a {
-  color: currentColor;
-  text-decoration: none;
-}
-
-button {
-  cursor: pointer;
 }
 
 img {
   display: block;
   max-width: 100%;
   height: auto;
+  /* width: 100%; */
+}
+
+body {
+  /* font-family: var(--primary-font);
+  color: var(--main-text-color);
+  background-color: #ffffff; */
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.button {
+  display: block;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.conteiner {
+  min-width: 320px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto;
 }
