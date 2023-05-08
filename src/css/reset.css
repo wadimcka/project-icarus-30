@@ -1,3 +1,20 @@
+:root {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  --white-primary-color: #ffffff;
+  --black-title-bg-color: #1e2827;
+  --black-primary-color: #141414;
+  --black-secondary-color: #14141480;
+  --grey-text-color: #ffffff80;
+  --grey-footer-text: #c6cdd1;
+  --grey-additional-text: #14141466;
+  /* for modal privacy and New Watches sections */
+  --grey-background-color: #fbfbfb;
+  --transition-timing-function: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 /* Reset styles */
 .list {
   list-style: none;
@@ -28,6 +45,9 @@ img {
 }
 
 body {
+  font-family: 'Epilogue', sans-serif;
+  color: var(--black-primary-color);
+  background-color: var(--grey-background-color);
 }
 
 .visually-hidden {
