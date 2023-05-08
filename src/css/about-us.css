@@ -1,0 +1,46 @@
+.about-us {
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+.about-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: var(#1e2827);
+  margin-bottom: 40px;
+}
+
+.about-list {
+  margin-bottom: 40px;
+}
+
+.about-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+.about-text {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: var(--black-primary-color);
+}
+.about-text-one {
+  padding: 0;
+}
+
+.about-text-two {
+  padding: 0;
+}
+
+.about-gif-thumb {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-gif-icon {
+  width: 100%;
+}
