@@ -36,26 +36,36 @@
 }
 
 .about-gif-thumb {
+  display: block;
   width: 100%;
   justify-content: center;
   align-items: center;
+  object-fit: cover;
 }
 
 .about-gif-icon {
   width: 100%;
+  height: 365px;
+  max-height: 100%;
 }
 
 @media screen and (min-width: 375px) {
   .container {
+    min-width: fit-content;
     width: 335px;
   }
   .about-gif-thumb {
-    width: 100%;
+    /* width: 100%; */
+  }
+  .about-gif-icon {
+    width: 335px;
+    height: 365px;
   }
 }
 
 @media screen and (min-width: 765px) {
   .container {
+    min-width: fit-content;
     width: 704px;
   }
 
@@ -88,12 +98,18 @@
 
   .about-gif-icon {
     height: 465px;
+    width: 704px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .container {
+    min-width: fit-content;
     width: 1176px;
+  }
+
+  .about-us {
+    background-color: #efefef;
   }
 
   .about-title {
