@@ -44,3 +44,77 @@
 .about-gif-icon {
   width: 100%;
 }
+
+@media screen and (min-width: 375px) {
+  .container {
+    width: 335px;
+  }
+  .about-gif-thumb {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 765px) {
+  .container {
+    width: 704px;
+  }
+
+  .about-text-wrap {
+    display: flex;
+    width: 100%;
+  }
+
+  .about-title {
+    margin-right: 40px;
+  }
+
+  .about-title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    white-space: nowrap;
+    width: 174px;
+  }
+
+  .about-list {
+    display: flex;
+    gap: 20px;
+  }
+
+  .about-item {
+    flex-basis: calc((100% - 20px) / 2);
+  }
+
+  .about-gif-icon {
+    height: 465px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1176px;
+  }
+
+  .about-title {
+    margin-right: 110px;
+  }
+
+  .about-text-one {
+    width: 439px;
+  }
+
+  .about-text-two {
+    width: 380px;
+  }
+  .about-list {
+    gap: 40px;
+    padding-right: 33px;
+  }
+
+  .about-gif-icon {
+    margin-left: auto;
+    width: 892px;
+    height: 500px;
+  }
+}
