@@ -1,3 +1,66 @@
-<section>
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal-catalog">
+        <button type="button" class="modal-btn-close button" data-modal-close>
+            <svg class="modal-button-icon" width="20" height="20">
+                <use href="./images/icons.svg#icon-x"></use>
+            </svg>
+        </button>
 
-</section>
+        <div class="catalog-card">
+            <div class="modal-image-wrap">
+                <img srcset="./images/catalog/desk/tube_desk.jpg 1x, ../images/catalog/desk/tube_desk_2x.jpg 2x"
+                    src="./images/catalog/desk/tube_desk.jpg" alt="Tube Watch S42 Date Steel With Black" width="276"
+                    height="274">
+            </div>
+            <p class="catalog-item-text">Tube Watch S42 Date Steel With Black</p>
+            <span class="catalog-item-price">&#8364;395</span>
+        </div>
+
+        <div class="catalog-form-wrap">
+            <form class="form-modal">
+                <ul class="form-list list">
+                    <li class="form-list-item">
+                        <label class="form-lable" for="customer-full-name">Full name</label>
+                        <div class="form-input-wrap">
+                            <input class="form-input" type="text" name="customer-full-name" id="customer-full-name"
+                                required placeholder="Enter your full name" minlength="2"
+                                pattern="[A-Za-zА-Яа-яІіЇї]+(\s+[A-Za-zА-Яа-яІіЇї]+)" title="Іван Іванов/John Doe"
+                                autofocus>
+                        </div>
+                    </li>
+
+                    <li class="form-list-item">
+                        <label class="form-lable" for="form-email">Email</label>
+                        <div class="form-input-wrap">
+                            <input class="form-input" type="email" name="email" id="form-email" required
+                                placeholder="Enter your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                                title="info@mail.com">
+                        </div>
+                    </li>
+
+                    <li class="form-list-item">
+                        <label class="form-lable" for="card-number">Card number</label>
+                        <div class="form-input-wrap">
+                            <input class="form-input" type="text" name="card-number" id="card-number" required
+                                placeholder="Enter card" minlength="16" pattern="[0-9]{4} [0-9]{4} [0-9]{4} [0-9]{4}"
+                                title="xxxx xxxx xxxx xxxx">
+                        </div>
+                    </li>
+
+                    <li class="form-list-item">
+                        <label class="form-lable" for="comment">Comments</label>
+                        <textarea class="form-input form-comment" name="comment" id="comment"
+                            placeholder="Text input"></textarea>
+                    </li>
+                </ul>
+
+                <button class="form-btn button" type="submit">submit</button>
+                <p class="form-text">By clicking on “Submit” button, you agree to our Privacy Policy, and allow
+                    Promodo
+                    to use this information for marketing
+                    purposes.
+                </p>
+            </form>
+        </div>
+    </div>
+</div>
