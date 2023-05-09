@@ -1,8 +1,8 @@
- <!-- HEADER -->
+<!-- HEADER -->
 <header class="header" data-header>
   <div class="head-container container">
     <a class="header-logo" href="./index.html">
-        <img src="./images/logo.svg" alt="logo" />
+      <img src="./images/logo.svg" alt="logo" />
       <span>thewatchspot</span>
     </a>
     <nav class="header-nav">
@@ -19,16 +19,42 @@
       </ul>
     </nav>
 
-    <a class="tel-item" href="tel:+380684439426">+380 (68) 443-94-26 </a>
+    <a class="tel-item" href="tel:+380684439426">+380 (68) 443-94-26</a>
 
-    <button class="head-menu-bt js-open-menu" 
-    aria-expanded="false" 
-    aria-controls="mobile-menu"
-    >
+    <button class="head-menu-bt js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
       <svg class="head-menu-bt-icon" width="24" height="24">
         <use href="./images/icons.svg#icon-menu-mob"></use>
       </svg>
-    </svg>
+      <svg class="menu-close" width="24" height="24">
+        <use href="./images/icons.svg#icon-x-mob"></use>
+      </svg>
     </button>
   </div>
 </header>
+
+
+<!-- MOBILE MENU -->
+<div class="menu-container js-menu-container" id="mobile-menu" aria-expanded="false" aria-controls="mobile-menu">
+  <a class="header-logo menu" href="../index.html">
+    <img src="./images/logo.svg" alt="logo" />
+    <span>thewatchspot</span>
+  </a>
+  <button class="head-menu-bt js-close-menu">
+    <img src="./images/x.svg" alt="x">
+    <svg class="menu-close" width="20" height="20">
+      <use href="./images/icons.svg#icon-x-mob"></use>
+    </svg>
+  </button>
+
+  <ul class="mobile-menu">
+    <li>
+      <a class="mobile-nav-item js-close-menu" href="#about">About us</a>
+    </li>
+    <li>
+      <a class="mobile-nav-item js-close-menu" href="#catalog">Catalog</a>
+    </li>
+    <li>
+      <a class="mobile-nav-item js-close-menu" href="#sale">Sale</a>
+    </li>
+  </ul>
+</div>
