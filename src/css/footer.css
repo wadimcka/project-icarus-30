@@ -1,0 +1,259 @@
+.footer-link-info
+{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  text-transform: uppercase;
+  color: var(--white-primary-color); 
+  transition: color var(--transition-timing-function);
+}
+
+.footer-link-info:is(:hover, :focus)
+{
+  color: var(--grey-footer-text);
+}
+
+
+@media screen and (min-width:768px) {
+  .footer-link-info
+  {
+    font-size: 18px;
+    line-height: 1.33;
+  }
+}
+
+
+.footer
+{
+  padding: 20px 0 40px;
+  background-color: var(--black-title-bg-color);
+}
+@media screen and (min-width:768px) {
+  .footer
+  {
+    padding: 80px 0 20px;
+  }
+}
+@media screen and (min-width:1280px) {
+  .footer
+  {
+    padding: 104px 0 32px;
+  }
+}
+.footer-list-info
+{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  transition: transform var(--transition-timing-function);
+}
+
+.footer-logo-icon:is(:hover, :focus)
+{
+  transform: rotate(30deg);
+}
+@media screen and (min-width: 768px) {
+  .footer-logo-icon
+{
+  width: 50px;
+  height: 50px;
+}
+}
+
+.footer-info
+{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap:40px;
+
+}
+
+.footer-nav-link
+{
+  font-weight: 400;
+  font-size: 18px;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--white-primary-color);
+  transition: color var(--transition-timing-function);
+}
+.footer-nav-link:is(:hover, :focus)
+{
+  color: var(--grey-footer-text)
+}
+
+@media screen and (min-width:768px) {
+  .footer-nav-link{
+    font-size: 18px;
+    line-height: 1.33;
+  }
+}
+.footer-nav
+{
+  position: absolute;
+  top: 40px;
+  right: 10%;
+}
+@media screen and (min-width:768px) {
+  .footer-nav{
+    position: static;
+  }
+}
+@media screen and (min-width:1280px) {
+  .footer-nav
+  {
+    top:104px;
+  }
+}
+
+.footer-container
+{
+  max-width: 1134px;
+  display: block;
+}
+@media screen  and (min-width:768px){
+  .footer-container
+  { 
+   
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 142px 152px;
+  }
+}
+
+
+.footer-list-nav
+{
+  display: flex;
+  gap:14px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+ 
+}
+.footer-info-nav
+{
+  display: flex;
+
+}
+.footer-soc
+{
+  margin-bottom: 80px;
+  margin-top: 40px;
+}
+@media screen and (min-width:768px) {
+  .footer-soc
+  {
+    margin:0;
+  }
+}
+.footer-list-soc
+{
+  display: flex;
+  justify-content: flex-start;
+  gap:14px;
+}
+.footer-soc-item
+{
+  width: 40px;
+  height: 40px;
+}
+@media screen and (min-width:768px) {
+  .footer-soc-item
+  {
+    width: 44px;
+    height: 44px;
+  }
+}
+.footer-soc-link
+{
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 8px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: border-color var(--transition-timing-function);
+}
+.footer-soc-link:is(:hover, :focus) 
+{
+  border-color: var(--black-primary-color);
+}
+.footer-soc-icon
+{
+  fill: var(--white-primary-color);
+  position: absolute;
+}
+@media screen and (min-width: 768px) {
+  .footer-soc-icon
+  {
+    width: 28px;
+    height: 28px;
+  }
+}
+ .footer-privacy-policy {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: var(--grey-footer-text);
+  opacity: 0.9;
+}
+@media screen and (min-width: 768px) {
+  
+  .footer-privacy-policy
+  {
+    margin-right: auto;
+    font-size: 14px;
+    line-height: 1.29;
+
+  }
+}
+
+
+.footer-privacy
+{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 14px;
+
+}
+@media screen and (min-width:768px) {
+  .footer-privacy
+  { 
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0 auto;
+  }
+}
+.footer-privacy-list {
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  gap:14px;
+}
+
+.footer-terms-service {
+  font-weight: 400;
+font-size: 12px;
+line-height: 1.17;
+text-align: right;
+letter-spacing: -0.02em;
+color: var(--grey-footer-text);
+}  
+@media screen and (min-width: 768px ) {
+  .footer-terms-service
+  {
+    font-size: 14px;
+    line-height: 1.29;
+  }
+}
