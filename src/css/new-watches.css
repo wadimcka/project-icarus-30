@@ -1,0 +1,116 @@
+.new-watches {
+    background-color: var(--grey-background-color);
+    display: grid;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
+.new-watches-container {
+    width: 375px;
+}
+
+.new-watches-title {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.06em;
+    color: rgba(20, 20, 20, 0.4);
+    padding-bottom: 8px;
+}
+
+.new-watches-subtitle {
+    display: block;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: var(--black-primary-color);
+    max-width: 335px;
+    padding-bottom: 40px;
+}
+
+.new-watches-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.new-watches-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+@media screen and (max-width: 374px) {
+    .new-watches-container {
+        width: 100%;
+    }
+    .new-watches-subtitle {
+        width: 100%;
+    }
+}
+   
+@media screen and (min-width: 768px) {
+    .new-watches {
+        padding-bottom: 128px;
+    }
+    
+    .new-watches-container {
+        width: 704px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .new-watches-subtitle {
+        font-size: 40px;
+        line-height: 1.1;
+        color: var(--black-title-bg-color);
+        max-width: 448px; 
+    }
+
+    .new-watches-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .new-watches-subtitle {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 1.1;
+        letter-spacing: -0.02em;
+        color: var(--black-title-bg-color); 
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .new-watches {
+        background-color: var(--white-primary-color);
+        padding-bottom: 160px;
+    }
+    
+    .new-watches-container {
+        width: 1176px;  
+    }
+
+    .new-watches-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+    }
+    
+    .new-watches-subtitle {
+       padding-bottom: 80px;
+    }
+    }
+
+    
