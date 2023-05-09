@@ -1,3 +1,9 @@
+.hero {
+  padding-top: 60px;
+  padding-bottom: 80px;
+  background-color: #141414;
+}
+
 /* --------------------------------------SWIPER--------------------- */
 .hero-numbers {
   display: flex;
@@ -38,6 +44,7 @@
   position: absolute;
   left: -15px;
   bottom: -6px;
+  transition: border var(--transition-timing-function);
 
   display: flex;
   align-items: center;
@@ -113,6 +120,10 @@
 /*=====================================MEDIA 768==================== */
 @media screen and (min-width: 375px) and (max-width: 767px) {
   .hero {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .hero {
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -176,6 +187,10 @@
 }
 /*=====================================MEDIA 768==================== */
 @media screen and (min-width: 768px) and (max-width: 1279px) {
+  .hero {
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
   .hero {
     padding-left: 32px;
     padding-right: 32px;
@@ -249,6 +264,10 @@
 }
 /*=====================================MEDIA Descktop==================== */
 @media screen and (min-width: 1280px) {
+  .hero {
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
   .swiper {
     width: 436px;
     height: 255px;
