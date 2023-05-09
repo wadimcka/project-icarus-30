@@ -9,7 +9,7 @@
   font-size: 32px;
   line-height: 1.25;
   letter-spacing: -0.02em;
-  color: var(#1e2827);
+  color: var(--black-title-bg-color);
   margin-bottom: 40px;
 }
 
@@ -51,7 +51,6 @@
 
 @media screen and (min-width: 375px) {
   .container {
-    min-width: fit-content;
     width: 335px;
   }
   .about-gif-thumb {
@@ -65,7 +64,6 @@
 
 @media screen and (min-width: 765px) {
   .container {
-    min-width: fit-content;
     width: 704px;
   }
 
@@ -104,7 +102,6 @@
 
 @media screen and (min-width: 1280px) {
   .container {
-    min-width: fit-content;
     width: 1176px;
   }
 
