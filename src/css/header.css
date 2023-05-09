@@ -111,7 +111,7 @@ img {
     }
   }
 
-  .header-link:hover::after,
+  
   .header-link:focus::after {
     position: absolute;
 
@@ -142,7 +142,7 @@ img {
     text-transform: uppercase;
   }
 
-  .tel-item:hover,
+  
   .tel-item:focus {
     border: 1px solid #ffffff;
 
