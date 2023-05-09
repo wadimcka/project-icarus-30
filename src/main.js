@@ -1,1 +1,1 @@
-import './js/mobile-menu.js';
+import './js-files/mobile-menu.js';
