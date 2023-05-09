@@ -111,14 +111,12 @@ img {
     }
   }
 
-  
+  /*  */
   .header-link:focus::after {
     position: absolute;
-
     content: "";
     width: 100%;
     height: 2px;
-    background-color: var(--white-primary-color);
     border-radius: 4px;
     display: block;
   }
@@ -144,7 +142,7 @@ img {
 
   
   .tel-item:focus {
-    border: 1px solid #ffffff;
+    border: 1px  ;
 
   }
 }
