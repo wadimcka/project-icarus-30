@@ -24,7 +24,7 @@
     font-size: 32px;
     line-height: 1.25;
     letter-spacing: -0.02em;
-    color: (--black-primary-color);
+    color: var(--black-primary-color);
     max-width: 335px;
     padding-bottom: 40px;
 }
