@@ -1,0 +1,259 @@
+/* ?================ DEFAULT ==================== */
+.catalog {
+  padding-bottom: 80px;
+}
+
+.container {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.catalog-name {
+  margin-bottom: 40px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: #1e2827;
+}
+
+.catalog-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.catalog-list-item-wrap {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 14px;
+}
+
+.catalog-image-wrap {
+  position: relative;
+  padding: 43px 30px;
+}
+
+.catalog-item-like {
+  /* color: red; */
+}
+
+.like-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(-12px, 12px);
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: none;
+  background-color: white;
+
+  display: none;
+}
+
+.like-icon {
+  width: 24px;
+  height: 24px;
+  fill: none;
+  fill-opacity: 0.5; /* прозрачность заливки */
+  stroke: rgba(20, 20, 20, 0.1); /* цвет обводки */
+  stroke-width: 2px; /* толщина обводки */
+}
+
+.hidden-item {
+  display: none;
+}
+
+.catalog-item-text {
+  text-align: left;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #141414;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.catalog-item-price {
+  text-align: left;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: rgba(20, 20, 20, 0.5);
+}
+
+.catalog-btn {
+  margin-top: 40px;
+  margin-left: auto;
+  padding: 14px 28px;
+  height: 42px;
+
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  text-align: center;
+  color: #ffffff;
+
+  background-color: #1e2827;
+  border-radius: 8px;
+
+  transition: transform var(--transition-dur-time);
+}
+
+.catalog-btn:hover,
+.catalog-btn:focus {
+  border: 1px solid #ffffff;
+}
+
+/* ======== OVERLAY =============== */
+.catalog-item-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(100%, 0);
+  padding: 40px 59px 40px 40px;
+
+  background-color: #1e2827;
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.catalog-list-item:hover .catalog-item-overlay,
+.catalog-list-item:focus .catalog-item-overlay {
+  transform: translate(0, 0);
+}
+
+.overlay-subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.overlay-text {
+  margin-top: 10px;
+  margin-bottom: 20px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.01em;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.overlay-list {
+  margin-top: 10px;
+}
+
+.overlay-item {
+  text-align-last: left;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.01em;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* !================= MOBILE ==================== */
+@media screen and (max-width: 375px) {
+  .catalog-item-overlay {
+    overflow: auto;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* ? ================ TABLET ==================== */
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .catalog-name {
+    line-height: 1.1;
+  }
+
+  .catalog {
+    padding-bottom: 128px;
+  }
+
+  .catalog-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px 32px;
+  }
+
+  .catalog-list-item {
+    width: 336px;
+  }
+
+  .like-btn {
+    display: block;
+  }
+
+  .catalog-item-overlay {
+    padding: 40px 60px 40px 40px;
+  }
+
+  .catalog-btn {
+    padding: 18px 35px;
+    height: 50px;
+  }
+}
+
+/*todo ================ DESKTOP =================== */
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1240px;
+  }
+
+  .catalog {
+    padding-bottom: 80px;
+    background-color: #fbfbfb;
+  }
+
+  .catalog-list {
+    gap: 64px 24px;
+  }
+
+  .catalog-list-item {
+    width: 276px;
+  }
+
+  .catalog-image-wrap {
+    padding: 25px 0px 26px 0px;
+  }
+
+  .like-btn {
+    display: none;
+  }
+
+  .catalog-item-overlay {
+    padding: 20px 20px;
+  }
+
+  .hidden-item {
+    display: block;
+  }
+}
