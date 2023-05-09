@@ -1,1 +1,148 @@
 
+/* HEADER */
+.header {
+  background-color: var(--black-primary-color);
+}
+
+.header.no-transparency {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(20, 20, 20, 0.4);
+  z-index: 100;
+}
+
+.header-logo {
+  display: flex;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: calc(12 / 12);
+  letter-spacing: -0.03em;
+  fill: var(--white-primary-color);
+  color: var(--white-primary-color);
+  padding: 20px 0;
+}
+
+.icon-logo {
+  width: 28px;
+  height: 28px;
+}
+
+.header-nav {
+  display: none;
+}
+
+.tel-item {
+  display: none;
+}
+
+.head-container.container {
+  display: flex;
+  align-items: center;
+
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+
+
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .header-logo {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: calc(15 / 15);
+    letter-spacing: -0.03em;
+    margin-right: 80px;
+  }
+
+  .header-nav {
+    display: flex;
+    margin-right: auto;
+
+  }
+
+  .header-item {
+    position: relative;
+  }
+
+  .header-list {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: calc(12 / 9);
+    text-transform: uppercase;
+    color: var(--white-primary-color);
+
+  }
+
+  @media only screen and (min-width: 768px) {
+    .header-link {
+      padding-top: 18px;
+      padding-bottom: 18px;
+    }
+  }
+
+  /*  */
+  .header-link:focus::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2px;
+    border-radius: 4px;
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  .tel-item {
+    color: var(--white-primary-color);
+    background-color: var(--black-title-bg-color);
+    border-radius: 8px;
+    border: transparent;
+    width: 159px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: inherit;
+    font-size: 9px;
+    line-height: calc(12 / 9);
+    text-transform: uppercase;
+  }
+
+  
+  .tel-item:focus {
+    border: 1px  ;
+
+  }
+}
