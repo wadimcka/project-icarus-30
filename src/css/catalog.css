@@ -1,6 +1,7 @@
 /* ?================ DEFAULT ==================== */
 .catalog {
   padding-bottom: 80px;
+  background-color: #fbfbfb;
 }
 
 .container {
@@ -231,7 +232,6 @@
   .catalog {
     padding-top: 80px;
     padding-bottom: 80px;
-    background-color: #fbfbfb;
   }
 
   .catalog-list {
