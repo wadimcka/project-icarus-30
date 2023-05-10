@@ -1,6 +1,4 @@
-.sale{
-    font-family: 'Epilogue', sans-serif;
-  }
+
   .sale-container{
     /* width: 1176px; */
     padding-left: 15px;
@@ -30,6 +28,7 @@
   }
   .sale{
     display: inline-block;
+    font-family: 'Epilogue', sans-serif;
   }
   .sale-title {
     font-weight: 600;
@@ -149,7 +148,10 @@
       padding-top: 80px;
       padding-bottom: 160px;
     }
-    
+    .sale-icon-thumb{
+      margin-top: 80px;
+      margin-left: 97px;
+    }
   }
   @media screen and (min-width: 768px) and (max-width: 1199px){
     .sale-container{
