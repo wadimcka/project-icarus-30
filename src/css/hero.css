@@ -1,7 +1,8 @@
 .hero {
-  padding-top: 60px;
+  padding-top: 80px;
   padding-bottom: 80px;
   background-color: #141414;
+  margin-top: 88px;
 }
 
 /* --------------------------------------SWIPER--------------------- */
@@ -92,10 +93,7 @@
 }
 
 /* ------------------------------------------------------ */
-.hero-container {
-  width: 375px;
-  margin: 0 auto;
-}
+
 .hero-title {
   font-weight: 600;
   font-size: 38px;
@@ -118,7 +116,7 @@
 /* ================================================================ */
 
 /*=====================================MEDIA 768==================== */
-@media screen and (min-width: 375px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .hero {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -184,10 +182,6 @@
 }
 /*=====================================MEDIA 768==================== */
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-  .hero {
-    padding-top: 60px;
-    padding-bottom: 80px;
-  }
   .hero {
     padding-left: 32px;
     padding-right: 32px;
@@ -255,7 +249,7 @@
   }
 }
 /*=====================================MEDIA Descktop==================== */
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1240px) {
   .swiper {
     width: 436px;
     height: 255px;
