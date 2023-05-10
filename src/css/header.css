@@ -3,7 +3,7 @@
   position: fixed;
     top: 0;
     left: 0;
-
+  min-width: 100%;
   background-color: var(--black-primary-color);
 }
 
@@ -190,14 +190,6 @@ a {
 
 .menu-container.is-open {
   transform: translateX(0);
-}
-
-.menu-close{
-    position: absolute;
-      top: 20px;
-      right: 20px;
-      color: var(--white-primary-color);
-
 }
 
 .menu-container .head-menu-bt {
