@@ -1,5 +1,9 @@
 /* HEADER */
 .header {
+  position: fixed;
+    top: 0;
+    left: 0;
+
   background-color: var(--black-primary-color);
 }
 
@@ -132,6 +136,17 @@
   }
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
 
 /* MOBILE MENU */
 .head-menu-bt {
@@ -163,7 +178,7 @@
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   padding: 20px;
 
   background-color: var(--black-title-bg-color);
@@ -175,6 +190,14 @@
 
 .menu-container.is-open {
   transform: translateX(0);
+}
+
+.menu-close{
+    position: absolute;
+      top: 20px;
+      right: 20px;
+      color: var(--white-primary-color);
+
 }
 
 .menu-container .head-menu-bt {
@@ -219,3 +242,4 @@
 .mob-menu.is-open+.mobile-menu-open .close-icon {
   display: inline;
 }
+
