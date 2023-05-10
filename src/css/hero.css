@@ -255,7 +255,7 @@
   }
 }
 /*=====================================MEDIA Descktop==================== */
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1240px) {
   .swiper {
     width: 436px;
     height: 255px;
