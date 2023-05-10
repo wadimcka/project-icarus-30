@@ -1,8 +1,6 @@
-
   .sale-container{
-    /* width: 1176px; */
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin: 0 auto;
   }
   p,
@@ -26,8 +24,8 @@
     max-width: 100%;
   }
   .sale{
-    display: inline-block;
     font-family: 'Epilogue', sans-serif;
+    
   }
   .sale-title {
     font-weight: 600;
@@ -74,6 +72,8 @@
     line-height: 1.33;
     letter-spacing: -0.02em;
     color: #141414;
+    display: flex;
+    align-items: end;
     }
   .sale-oldprice-text {
     font-size: 12px;
@@ -105,9 +105,11 @@
   .sale-description-text {
     color: rgba(20, 20, 20, 0.5);
     margin-bottom: 48px;
+    font-size: 14px;
   }
   .sale-details-item {
     color: rgba(20, 20, 20, 0.5);
+    font-size: 14px;
   }
   .sale-texts{
     display: flex; 
@@ -136,32 +138,31 @@
       width: 369px;
   
     }
-    .sale{
-      padding-top: 80px;
-      padding-bottom: 160px;
-    }
     .sale-icon-thumb{
       margin-top: 80px;
-      margin-left: 97px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .sale{
+      padding-bottom: 160px;
     }
   }
-  @media screen and (min-width: 768px) and (max-width: 1199px){
+  @media screen and (min-width: 768px) and (max-width: 1280px){
     .sale-container{
     width: 768px;
+    padding-right: 32px;
+    padding-left: 32px;
   }
   .sale-texts-wrap{
     margin-left: 0;
     margin-top: 40px;
+    width: 572px;
   }
   .sale-icon-thumb{
     display: flex;
-    margin-left: 66px;
-    margin-right: 66px;
+    justify-content: center;
     margin-top: 40px;
-    }
-    .sale{
-      padding-top: 128px;
-      padding-bottom: 128px;
     }
     .all-pictures-wrap{
       display: flex;
@@ -170,10 +171,15 @@
     .big-picture-wrap{
       margin-right: 0;
       }
+      .sale{
+        padding-bottom: 128px;
+      }
   }
   @media screen and (max-width: 767px){
     .sale-container{
-      width: 428px;
+      max-width: 375px;
+      padding-left: 20px;
+      padding-right: 20px;
     }
     .all-pictures-wrap{
       display: flex;
@@ -186,7 +192,6 @@
       margin-left: 0;
     }
     .sale{
-      padding-top: 80px;
       padding-bottom: 80px;
     }
     .sale-biggest-icon{
