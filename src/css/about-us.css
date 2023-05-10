@@ -55,7 +55,7 @@
     width: 335px;
   }
   .about-gif-thumb {
-    /* width: 100%; */
+    max-width: 100%;
   }
   .about-gif-icon {
     width: 335px;
@@ -124,6 +124,10 @@
   .about-list {
     gap: 40px;
     padding-right: 33px;
+  }
+
+  .about-gif-thumb {
+    max-width: 1176px;
   }
 
   .about-gif-icon {
