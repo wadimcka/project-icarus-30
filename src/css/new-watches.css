@@ -93,7 +93,7 @@
 @media screen and (min-width: 1280px) {
     .new-watches {
         background-color: var(--white-primary-color);
-        padding-bottom: 160px;
+        padding-bottom: 80px;
     }
     
     .new-watches-container {
