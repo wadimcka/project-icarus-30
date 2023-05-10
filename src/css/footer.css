@@ -133,7 +133,12 @@
     max-width: 1134px;
   }
 }
-
+@media screen and (max-width:500px) {
+  .footer-container 
+  {
+    max-width: 300px;
+  }
+}
 
 .footer-list-nav
 {
