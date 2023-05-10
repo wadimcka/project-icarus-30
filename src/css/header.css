@@ -3,7 +3,7 @@
   position: fixed;
     top: 0;
     left: 0;
-  min-width: 100%;
+    width: 100%;
   background-color: var(--black-primary-color);
   
 }
@@ -45,6 +45,7 @@
 .head-container.container {
   display: flex;
   align-items: center;
+  justify-content: center;
 
 }
 
@@ -137,17 +138,6 @@
   }
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-a {
-  color: currentColor;
-  text-decoration: none;
-}
-
 
 /* MOBILE MENU */
 .head-menu-bt {
@@ -175,7 +165,7 @@ a {
 }
 
 .menu-container {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100vw;
