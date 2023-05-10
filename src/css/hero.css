@@ -97,8 +97,6 @@
   margin: 0 auto;
 }
 .hero-title {
-  font-family: inherit;
-  font-style: normal;
   font-weight: 600;
   font-size: 38px;
   line-height: 1.05;
@@ -106,13 +104,12 @@
   color: #ffffff;
 }
 .hero-paragraph {
-  font-family: inherit;
   font-weight: 300;
   font-size: 14px;
   line-height: 1.5;
   letter-spacing: -0.02em;
   max-width: 248px;
-  color: inherit;
+  color: #ffffff;
 }
 
 /* ================================================================ */
@@ -123,7 +120,7 @@
     padding-top: 40px;
     padding-bottom: 40px;
   }
-  .hero {
+  .container {
     padding-left: 20px;
     padding-right: 20px;
   }
