@@ -118,7 +118,7 @@
 /* ================================================================ */
 
 /*=====================================MEDIA 768==================== */
-@media screen and (min-width: 375px) and (max-width: 767px) {
+@media screen and (min-width: 3px) and (max-width: 767px) {
   .hero {
     padding-top: 40px;
     padding-bottom: 40px;
