@@ -194,6 +194,7 @@
   .swiper {
     width: 436px;
     height: 255px;
+    margin-left: -0;
   }
   .swiper-wraper {
     margin-left: 0;
@@ -213,7 +214,7 @@
     font-size: 14px;
     line-height: 1.5;
     letter-spacing: -0.02em;
-    margin-right: 0;
+    margin-right: 65px;
     display: flex;
     align-items: center;
     max-width: 248px;
