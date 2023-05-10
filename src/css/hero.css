@@ -109,6 +109,9 @@
   line-height: 1.5;
   letter-spacing: -0.02em;
   max-width: 248px;
+  color: rgba(255, 255, 255, 0.9);
+}
+.hero-numbers {
   color: #ffffff;
 }
 
@@ -120,10 +123,7 @@
     padding-top: 40px;
     padding-bottom: 40px;
   }
-  .container {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
+
   .swiper {
     width: auto;
     height: 169px;
@@ -202,16 +202,11 @@
   }
   .hero-tablet-second-row {
     display: flex;
-    /* margin-bottom: 40px; */
   }
-  /* .hero-tablet-paragraph {
-    margin-right: auto;
-  } */
   .hero-paragraph {
     display: none;
   }
   .hero-tablet-paragraph {
-    font-family: inherit;
     font-weight: 300;
     font-size: 14px;
     line-height: 1.5;
@@ -220,6 +215,7 @@
     display: flex;
     align-items: center;
     max-width: 248px;
+    color: rgba(255, 255, 255, 0.9);
   }
   .hero-descktop-paragraph {
     display: none;
@@ -233,7 +229,6 @@
   }
   .swiper-navigation {
     display: block;
-    /* margin-bottom: 40px; */
   }
   .swiper-navigation-top {
     display: none;
@@ -261,10 +256,6 @@
 }
 /*=====================================MEDIA Descktop==================== */
 @media screen and (min-width: 1280px) {
-  .hero {
-    padding-top: 60px;
-    padding-bottom: 80px;
-  }
   .swiper {
     width: 436px;
     height: 255px;
@@ -294,13 +285,11 @@
     font-size: 60px;
   }
   .hero-descktop-paragraph {
-    font-family: inherit;
-    font-style: normal;
     font-weight: 300;
     font-size: 14px;
     line-height: 1.5;
     letter-spacing: -0.02em;
-    color: #ffffff;
+    color: rgba(255, 255, 255, 0.8);
     margin-left: 144px;
     max-width: 282px;
   }
@@ -310,9 +299,7 @@
   .hero-tablet-paragraph {
     display: none;
   }
-
   .swiper {
-    /* margin-top: 79px; */
     margin-right: 64px;
     margin-left: 0;
   }
@@ -322,20 +309,20 @@
     bottom: -36px;
   }
   .hero-numbers {
-    gap: 32px;
+    gap: 11px;
     position: relative;
-    left: 349px;
-    bottom: -12px;
+    left: 169px;
+    bottom: -3px;
   }
   .hero-numbers-item::after {
     display: block;
     content: '';
-    width: 34px;
+    width: 40px;
     height: 1px;
     background-color: #ffffff;
     position: relative;
-    left: 22px;
-    bottom: 11px;
+    left: -1px;
+    bottom: -13px;
   }
   .swiper-button-next::after {
     bottom: -171px;
