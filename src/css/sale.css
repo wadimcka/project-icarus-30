@@ -146,6 +146,7 @@
       justify-content: center;
     }
     .sale{
+      padding-top: 80px;
       padding-bottom: 160px;
     }
   }
@@ -173,6 +174,7 @@
       margin-right: 0;
       }
       .sale{
+        
         padding-bottom: 128px;
       }
   }
