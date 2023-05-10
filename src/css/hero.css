@@ -5,10 +5,7 @@
 }
 
 /* --------------------------------------SWIPER--------------------- */
-.swiper {
-  width: 436px;
-  height: 255px;
-}
+
 .hero-numbers {
   display: flex;
 }
