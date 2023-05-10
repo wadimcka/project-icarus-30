@@ -6,6 +6,10 @@
 }
 
 /* --------------------------------------SWIPER--------------------- */
+.swiper {
+  width: 436px;
+  height: 255px;
+}
 .hero-numbers {
   display: flex;
 }
@@ -123,8 +127,9 @@
   }
 
   .swiper {
-    width: auto;
-    height: 169px;
+    width: 266px;
+    height: 200px;
+    margin-left: -0px;
   }
   .hero-first-row {
     margin-bottom: 60px;
@@ -144,7 +149,7 @@
 
     gap: 20px;
     position: relative;
-    left: 167px;
+    left: 207px;
     bottom: -12px;
   }
   .hero-numbers-item::after {
@@ -176,8 +181,8 @@
   }
 
   .swiper-slide {
-    width: 226px;
-    height: 190px;
+    width: 266px;
+    height: 200px;
   }
 }
 /*=====================================MEDIA 768==================== */
@@ -189,6 +194,9 @@
   .swiper {
     width: 436px;
     height: 255px;
+  }
+  .swiper-wraper {
+    margin-left: 0;
   }
   .hero-title {
     max-width: 653px;
@@ -217,10 +225,7 @@
   .hero-first-row {
     margin-bottom: 40px;
   }
-  .swiper {
-    margin-left: 0;
-    margin-right: 19px;
-  }
+
   .swiper-navigation {
     display: block;
   }
@@ -316,7 +321,7 @@
     background-color: #ffffff;
     position: relative;
     left: -1px;
-    bottom: -13px;
+    bottom: -8px;
   }
   .swiper-button-next::after {
     bottom: -171px;
