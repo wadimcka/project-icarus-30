@@ -111,7 +111,12 @@
   }
 
   .about-title {
-    margin-right: 110px;
+    margin-right: 0;
+  }
+
+  .about-text-wrap {
+    display: flex;
+    justify-content: space-between;
   }
 
   .about-text-one {
